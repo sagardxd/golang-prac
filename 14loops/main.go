@@ -12,4 +12,13 @@ func main() {
 		// fmt.Printf("%v ", days[d])
 	}
 
+	for i := range days {
+		fmt.Println(days[i])
+	}
+
+	//returning the index and value
+	for index, day := range days {
+		fmt.Printf("Index is %v and value is %v \n", index ,day);
+	}
+
 }
